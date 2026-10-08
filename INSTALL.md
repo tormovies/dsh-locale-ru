@@ -7,15 +7,14 @@
 ## 1. Из npm (проще всего для других людей)
 
 ```powershell
-dsh plugin --profile desktop add dsh-locale-ru
+dsh plugin --profile desktop add @tormovies/dsh-locale-ru
 ```
 
 Затем перезапустить приложение и выбрать **Настройки → Общие → Язык → Русский**.
 
-> Имя `dsh-locale-ru` в npm уже занято сторонней русификацией (31 namespace,
-> 1048 строк). Перед публикацией **этого** пакета имя нужно сменить
-> (например, на `deepseek-harness-locale-ru` или `dsh-ru-locale` — оба
-> свободны) либо публиковать под своим скоупом: `@ваш-логин/dsh-locale-ru`.
+> Пакет публикуется под скоупом автора: `@tormovies/dsh-locale-ru`.
+> Незанятое имя без скоупа (`dsh-locale-ru`) уже используется сторонней
+> русификацией, поэтому здесь выбран скоуп.
 
 ## 2. Из git-репозитория
 
@@ -34,7 +33,7 @@ dsh plugin --profile desktop add github:<логин>/dsh-locale-ru
 # собрать архив (в папке пакета)
 npm pack                     # или: pnpm pack
 # у получателя
-dsh plugin --profile desktop add "C:\путь\dsh-locale-ru-0.1.0.tgz"
+dsh plugin --profile desktop add "C:\путь\tormovies-dsh-locale-ru-0.1.0.tgz"
 ```
 
 ## 4. Папкой или ссылкой (для разработки)
@@ -51,7 +50,7 @@ dsh plugin --profile desktop add "file:C:\путь\к\dsh-locale-ru"   # коп�
 ## Удаление
 
 ```powershell
-dsh plugin --profile desktop remove dsh-locale-ru
+dsh plugin --profile desktop remove @tormovies/dsh-locale-ru
 ```
 
 Интерфейс возвращается к английскому, язык `Русский` исчезает из списка.

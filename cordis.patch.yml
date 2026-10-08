@@ -1,7 +1,6 @@
-# The dsh-locale-ru bundle patch: one browser row for the Russian language
-# pack. The row's name is this package, so the Loader mounts the Host half
-# (lib/index.js) and the client module system serves the browser half
-# (lib/client.js) declared through `dsh.client`.
+# The Russian language pack's bundle patch: one browser row. The row's name is
+# this package, so the Loader mounts the Host half (lib/index.js) and the client
+# module system serves the browser half (lib/client.js) declared in `dsh.client`.
 - insert:
     - id: locale-ru
-      name: dsh-locale-ru
+      name: "@tormovies/dsh-locale-ru"

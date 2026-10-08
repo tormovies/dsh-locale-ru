@@ -1,9 +1,17 @@
 {
-  "name": "dsh-locale-ru",
+  "name": "@tormovies/dsh-locale-ru",
   "version": "0.1.0",
   "description": "Russian (Русский) interface for DeepSeek Harness — a full external language pack for the DSH web GUI (2389 UI strings, 57 namespaces)",
   "type": "module",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tormovies/dsh-locale-ru.git"
+  },
+  "homepage": "https://github.com/tormovies/dsh-locale-ru#readme",
+  "bugs": {
+    "url": "https://github.com/tormovies/dsh-locale-ru/issues"
+  },
   "exports": {
     ".": {
       "default": "./lib/index.js"

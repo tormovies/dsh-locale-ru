@@ -13,7 +13,7 @@
 ## Установка
 
 ```bash
-dsh plugin --profile desktop add dsh-locale-ru
+dsh plugin --profile desktop add @tormovies/dsh-locale-ru
 ```
 
 Затем перезапустить приложение и выбрать **Настройки → Общие → Язык → Русский**.

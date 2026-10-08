@@ -17,6 +17,8 @@ if (!packDir) {
 
 const dictDir = path.join(packDir, 'locale', 'ru');
 const outFile = path.join(packDir, 'lib', 'client.js');
+const manifest = JSON.parse(fs.readFileSync(path.join(packDir, 'package.json'), 'utf8'));
+const bundleId = manifest.name;
 
 const entries = fs
   .readdirSync(dictDir)
@@ -47,7 +49,7 @@ const bundle = `/**
  * chain (\`ru\` -> \`en\`), so partial coverage never breaks a surface.
  */
 window.__ModuleLoader__.load({
-	id: "dsh-locale-ru",
+	id: ${JSON.stringify(bundleId)},
 	factory: (require) => {
 		var module = { exports: {} };
 		var exports = module.exports;
