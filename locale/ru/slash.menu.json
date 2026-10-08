@@ -1,0 +1,11 @@
+{
+  "command": "Команды",
+  "crumbs.aria": "Навигация по папкам",
+  "drill.aria": "Просмотр папки",
+  "drill.hint": "Просмотр папки",
+  "drill.key": "Tab",
+  "loading": "Загрузка…",
+  "skill": "Навыки",
+  "subagent": "Субагенты",
+  "suggestions.aria": "Подсказки триггеров"
+}

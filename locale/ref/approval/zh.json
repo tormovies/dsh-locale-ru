@@ -1,0 +1,7 @@
+{
+  "allowOnce": "允许一次",
+  "detail.aria": "审批详情",
+  "escalation": "工具 {toolName} 请求越权执行",
+  "reject": "拒绝",
+  "waiting": "等待审批"
+}

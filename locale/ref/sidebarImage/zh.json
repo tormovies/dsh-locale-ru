@@ -1,0 +1,7 @@
+{
+  "failed": "无法显示这张图片",
+  "loading": "文档渲染中...",
+  "preview": "图片预览：{name}",
+  "title": "图片",
+  "unsupported": "图片预览需要完整文件内容"
+}

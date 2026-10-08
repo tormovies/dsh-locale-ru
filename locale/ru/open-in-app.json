@@ -1,0 +1,17 @@
+{
+  "app.explorer": "Проводник",
+  "app.filemanager": "Файлы",
+  "app.finder": "Finder",
+  "app.terminal": "Терминал",
+  "open.title": "Открыть в приложении {app}",
+  "open.tooltip": "Открыть локально",
+  "path.appDefault": "{app} (по умолчанию)",
+  "path.appsError": "Не удалось загрузить приложения",
+  "path.more": "Другие способы открыть",
+  "path.open": "Открыть",
+  "path.openError": "Не удалось открыть. Повторите попытку.",
+  "path.reveal": "Показать в проводнике",
+  "path.revealError": "Не удалось показать в проводнике. Повторите попытку.",
+  "shortcut.busy": "Открытие рабочей области",
+  "shortcut.unavailable": "Текущая рабочая область или локальное приложение недоступны"
+}

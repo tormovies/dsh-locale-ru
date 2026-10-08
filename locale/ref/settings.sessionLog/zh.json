@@ -1,0 +1,6 @@
+{
+  "description": "帮助改进 DeepSeek 模型与产品",
+  "failed": "无法保存设置",
+  "saved": "设置已保存",
+  "title": "在使用官方模型 API 时上传 Session Log"
+}

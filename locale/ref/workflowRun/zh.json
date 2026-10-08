@@ -1,0 +1,20 @@
+{
+  "member.empty": "空成员名",
+  "member.open": "打开 {name}",
+  "phase.empty": "空阶段名",
+  "phase.unassigned": "未分阶段",
+  "run.empty": "没有启动成员",
+  "run.members.one": "{count} 个成员",
+  "run.members.other": "{count} 个成员",
+  "run.title": "{name}",
+  "status.cancelled": "已取消",
+  "status.completed": "已完成",
+  "status.failed": "失败",
+  "status.interrupted": "已中断",
+  "status.running": "运行中",
+  "statusCount.cancelled": "已取消 {count}",
+  "statusCount.completed": "已完成 {count}",
+  "statusCount.failed": "失败 {count}",
+  "statusCount.interrupted": "已中断 {count}",
+  "statusCount.running": "运行中 {count}"
+}

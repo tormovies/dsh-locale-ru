@@ -1,0 +1,11 @@
+{
+  "failed": "无法显示 PDF：{message}",
+  "loading": "文档渲染中...",
+  "pageImage": "PDF 第 {page} 页",
+  "password": "此 PDF 需要密码，暂不支持预览",
+  "rendering": "正在绘制页面…",
+  "retry": "重试",
+  "title": "PDF",
+  "unsupported": "PDF 预览需要完整文件内容",
+  "workerFailed": "PDF 渲染进程无法继续，请重试"
+}

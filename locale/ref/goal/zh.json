@@ -1,0 +1,14 @@
+{
+  "action.cancel": "取消编辑",
+  "action.clear": "清除目标",
+  "action.edit": "编辑目标",
+  "action.pause": "暂停目标",
+  "action.resume": "恢复目标",
+  "action.save": "保存目标",
+  "commandInput.aria": "指令输入",
+  "objective.aria": "目标内容",
+  "phase.active": "进行中的目标",
+  "phase.active.disarmed": "未运行的目标",
+  "phase.blocked": "受阻的目标",
+  "phase.paused": "已暂停的目标"
+}

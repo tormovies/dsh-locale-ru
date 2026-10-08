@@ -1,0 +1,13 @@
+{
+  "candidate.noCwd": "（无工作目录）",
+  "crumb.root": "工作区",
+  "section.files": "文件与文件夹",
+  "section.sessions": "对话",
+  "section.subagents": "子智能体",
+  "time.days": "{n}天",
+  "time.hours": "{n}小时",
+  "time.minutes": "{n}分钟",
+  "time.months": "{n}个月",
+  "time.now": "刚刚",
+  "time.years": "{n}年"
+}
