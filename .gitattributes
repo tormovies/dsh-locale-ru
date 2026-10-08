@@ -1,0 +1,7 @@
+# Все текстовые файлы — с LF, чтобы словари не «поехали» на Windows
+* text=auto eol=lf
+*.json text eol=lf
+*.mjs text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
