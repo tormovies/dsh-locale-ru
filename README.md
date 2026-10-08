@@ -12,13 +12,20 @@
 
 ## Установка
 
+Из GitHub (проще всего — сборка не требуется, бандл уже в репозитории):
+
+```bash
+dsh plugin --profile desktop add github:tormovies/dsh-locale-ru
+```
+
+Из npm (когда пакет опубликован):
+
 ```bash
 dsh plugin --profile desktop add @tormovies/dsh-locale-ru
 ```
 
 Затем перезапустить приложение и выбрать **Настройки → Общие → Язык → Русский**.
-Подробно про все способы (npm, git, tarball, локальная папка) — в
-[INSTALL.md](INSTALL.md).
+Остальные способы (tarball, локальная папка) — в [INSTALL.md](INSTALL.md).
 
 ## Состав
 
